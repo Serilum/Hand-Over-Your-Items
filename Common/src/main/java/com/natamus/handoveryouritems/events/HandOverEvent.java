@@ -1,7 +1,7 @@
 package com.natamus.handoveryouritems.events;
 
 import com.natamus.collective.functions.ItemFunctions;
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.handoveryouritems.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.InteractionHand;
@@ -42,11 +42,11 @@ public class HandOverEvent {
 
 		if (!level.isClientSide) {
 			if (ConfigHandler.sendItemReceivedMessage) {
-				StringFunctions.sendMessage(playertarget, "You have been given " + stacksize + " " + itemstring + " by " + player.getName().getString() + ".", ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendMessage(playertarget, "You have been given " + stacksize + " " + itemstring + " by " + player.getName().getString() + ".", ChatFormatting.DARK_GREEN);
 			}
 
 			if (ConfigHandler.sendItemGivenMessage) {
-				StringFunctions.sendMessage(player, "You have given " + stacksize + " " + itemstring + " to " + target.getName().getString() + ".", ChatFormatting.BLUE);
+				MessageFunctions.sendMessage(player, "You have given " + stacksize + " " + itemstring + " to " + target.getName().getString() + ".", ChatFormatting.BLUE);
 			}
 		}
 		
