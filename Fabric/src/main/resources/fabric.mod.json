@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "handoveryouritems",
-  "version": "3.3",
+  "version": "3.4",
 
   "name": "Hand Over Your Items",
   "description": "Adds to ability to give other players items in a server without dropping them on the floor.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54"
+    "collective": ">=7.60"
   },
 
   "custom": {
@@ -46,10 +46,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
 	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Rare Students",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
