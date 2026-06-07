@@ -42,11 +42,11 @@ public class HandOverEvent {
 
 		if (!level.isClientSide) {
 			if (ConfigHandler.sendItemReceivedMessage) {
-				MessageFunctions.sendMessage(playertarget, "You have been given " + stacksize + " " + itemstring + " by " + player.getName().getString() + ".", ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendTranslatableMessage(playertarget, "collective.handoveryouritems.message.givenby", ChatFormatting.DARK_GREEN, stacksize, itemstring, player.getName().getString());
 			}
 
 			if (ConfigHandler.sendItemGivenMessage) {
-				MessageFunctions.sendMessage(player, "You have given " + stacksize + " " + itemstring + " to " + target.getName().getString() + ".", ChatFormatting.BLUE);
+				MessageFunctions.sendTranslatableMessage(player, "collective.handoveryouritems.message.given", ChatFormatting.BLUE, stacksize, itemstring, target.getName().getString());
 			}
 		}
 		
