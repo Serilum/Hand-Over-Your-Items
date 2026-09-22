@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
 issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Hand%20Over%20Your%20Items"
-logoFile="icon.png"
+iconFile="icon.png"
 
 [[mods]]
 modId="handoveryouritems"
@@ -14,7 +14,7 @@ description='''Adds to ability to give other players items in a server without d
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Josh, Linda Jansen, MWS, Tyler Behl   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -29,7 +29,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.handoveryouritems]]
     modId="minecraft"
     type="required"
-    versionRange="[26.2]"
+    versionRange="[26.3]"
     ordering="NONE"
     side="BOTH"
 
