@@ -1,7 +1,7 @@
-package com.natamus.handoveryouritems.fabric.config;
+package com.serilum.handoveryouritems.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

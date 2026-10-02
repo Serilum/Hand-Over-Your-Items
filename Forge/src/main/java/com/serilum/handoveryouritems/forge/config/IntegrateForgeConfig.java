@@ -1,7 +1,7 @@
-package com.natamus.handoveryouritems.forge.config;
+package com.serilum.handoveryouritems.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
