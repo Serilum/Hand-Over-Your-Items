@@ -1,6 +1,6 @@
-package com.natamus.handoveryouritems.forge.events;
+package com.serilum.handoveryouritems.forge.events;
 
-import com.natamus.handoveryouritems.events.HandOverEvent;
+import com.serilum.handoveryouritems.events.HandOverEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.Event.Result;

@@ -1,10 +1,10 @@
-package com.natamus.handoveryouritems;
+package com.serilum.handoveryouritems;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.handoveryouritems.forge.config.IntegrateForgeConfig;
-import com.natamus.handoveryouritems.forge.events.ForgeHandOverEvent;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.forge.config.IntegrateForgeConfig;
+import com.serilum.handoveryouritems.forge.events.ForgeHandOverEvent;
+import com.serilum.handoveryouritems.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeHandOverEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeHandOverEvent.class);
 	}
 
 	private static void setGlobalConstants() {
