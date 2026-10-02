@@ -1,6 +1,6 @@
-package com.natamus.handoveryouritems;
+package com.serilum.handoveryouritems;
 
-import com.natamus.handoveryouritems.config.ConfigHandler;
+import com.serilum.handoveryouritems.config.ConfigHandler;
 
 public class ModCommon {
 

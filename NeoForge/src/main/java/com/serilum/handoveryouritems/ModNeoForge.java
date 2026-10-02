@@ -1,10 +1,10 @@
-package com.natamus.handoveryouritems;
+package com.serilum.handoveryouritems;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.handoveryouritems.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.handoveryouritems.neoforge.events.NeoForgeHandOverEvent;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.handoveryouritems.neoforge.events.NeoForgeHandOverEvent;
+import com.serilum.handoveryouritems.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;

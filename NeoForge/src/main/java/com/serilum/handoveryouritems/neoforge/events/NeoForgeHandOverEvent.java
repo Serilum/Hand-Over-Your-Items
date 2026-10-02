@@ -1,6 +1,6 @@
-package com.natamus.handoveryouritems.neoforge.events;
+package com.serilum.handoveryouritems.neoforge.events;
 
-import com.natamus.handoveryouritems.events.HandOverEvent;
+import com.serilum.handoveryouritems.events.HandOverEvent;
 import net.minecraft.world.InteractionResult;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;

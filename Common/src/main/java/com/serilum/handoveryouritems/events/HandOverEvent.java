@@ -1,8 +1,8 @@
-package com.natamus.handoveryouritems.events;
+package com.serilum.handoveryouritems.events;
 
 import com.natamus.collective.functions.ItemFunctions;
 import com.natamus.collective.functions.MessageFunctions;
-import com.natamus.handoveryouritems.config.ConfigHandler;
+import com.serilum.handoveryouritems.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
