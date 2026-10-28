@@ -1,7 +1,7 @@
-package com.natamus.handoveryouritems.config;
+package com.serilum.handoveryouritems.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

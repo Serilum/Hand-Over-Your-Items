@@ -1,9 +1,9 @@
-package com.natamus.handoveryouritems;
+package com.serilum.handoveryouritems;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.handoveryouritems.events.HandOverEvent;
-import com.natamus.handoveryouritems.util.Reference;
+import com.serilum.handoveryouritems.events.HandOverEvent;
+import com.serilum.handoveryouritems.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 
